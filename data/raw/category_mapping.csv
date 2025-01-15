@@ -1,0 +1,59 @@
+Column,Category,Meaning
+CustomerID,Customer ID,Customer ID
+AdjustmentsToCreditRating,Customer credit score,Number of adjustments made to customer credit rating (up or down)
+CreditRating,Customer credit score,"Credit Rating (1-Highest,2-High,3-Good,4-Medium,5-Low,6-VeryLow,7-Lowest)"
+MonthsInService,Customer demography,Months in Service
+UniqueSubs,Customer demography,Number of Unique Subs
+ActiveSubs,Customer Demography,Number of Active Subscribers
+CurrentEquipmentDays,Customer Demography,Number of days of the current equipment
+AgeHH1,Customer Demography,Age of first HH member
+AgeHH2,Customer Demography,Age of second HH member
+HandsetPrice,Customer Demography,Handset price (0=>missing)
+RetentionCalls,Value added services,Number of calls previously made to retention team
+RetentionOffersAccepted,Value added services,Number of previous retention offers accepted
+MonthlyRevenue,Bill & Payment Analysis,Mean monthly revenue
+TotalRecurringCharge,Bill & Payment Analysis,Mean total recurring charge
+PercChangeRevenues,Bill & Payment Analysis,% Change in revenues
+BlockedCalls,Customer care service,Mean number of blocked voice calls
+CustomerCareCalls,Customer care Service,Mean number of customer care calls
+DroppedBlockedCalls,Customer care service,Mean number of dropped or blocked calls
+MonthlyMinutes,Customer usage pattern,Mean Monthly Minute of uses
+OverageMinutes,Customer usage pattern,Mean overage minutes of use
+RoamingCalls,Customer usage pattern,Mean number of roaming calls
+PercChangeMinutes,Customer usage pattern,% Change in minutes of use
+DroppedCalls,Customer Usage Pattern,Mean number of dropped voice calls
+UnansweredCalls,Customer usage pattern,Mean number of unanswered voice
+ReceivedCalls,Customer usage pattern,Mean unrounded minute of use received voice calls
+OutboundCalls,Customer usage pattern,Mean number of outbound voice calls
+InboundCalls,Customer usage pattern,Mean number of inbound voice calls
+PeakCallsInOut,Customer usage pattern,Mean number of in and out peak voice calls
+OffPeakCallsInOut,Customer usage pattern,Mean number of in and out off-peak voice calls
+DirectorAssistedCalls,Value added services,Mean number of director assisted calls
+ThreewayCalls,Value added services,Mean number of three-way calls
+CallForwardingCalls,Value added services,Mean number of call forwarding calls
+CallWaitingCalls,Value added services,Mean number of call waiting calls
+Churn,Response variable,Churn Result
+RespondsToMailOffers,Customer care service,Responds to mail offer
+OptOutMailings,Customer care service,Has chosen not to be solicited by mail
+MadeCallToRetentionTeam,Customer care service,Customer has made call to retention team
+ServiceArea,Customer demography,Service Area
+Handsets,Customer Demography,Number of handsets per customer
+HandsetModels,Customer Demography,"Handset model(1-15,NA)"
+ChildrenInHH,Customer Demography,Presence of children in HH
+HandsetRefurbished,Customer Demography,Is the handset refurbished? (Yes/No)
+HandsetWebCapable,Customer Demography,Is the handset web capable? (Yes/No)
+TruckOwner,Customer Demography,Subscriber owns a truck
+RVOwner,Customer Demography,Subscriber owns a recreational vehicle
+Homeownership,Customer Demography,Subscriber owns a Home
+BuysViaMailOrder,Customer Demography,Buys via mail order
+NonUSTravel,Customer Demography,Has traveled to non-US country
+OwnsComputer,Customer Demography,Subscriber owns a computer
+HasCreditCard,Customer Demography,Possesses a credit card
+NewCellphoneUser,Customer Demography,Known to be a new cell phone user
+NotNewCellphoneUser,Customer Demography,Known not to be a new cell phone user
+ReferralsMadeBySubscriber,Customer Demography,Number of referrals made by subscriber
+IncomeGroup,Customer Demography,Income Group low to high 0-9
+OwnsMotorcycle,Customer Demography,Owns a motorcycle
+PrizmCode,Customer Demography,Area that customer lives Town/Suburban/Rural/Other
+Occupation,Customer Demography,"Occupation (Occupation, Professional, Crafts, Other, Self, Retired, Homemaker, Clerical, Student)"
+MaritalStatus,Customer Demography,Marital Status (yes/no/unknown)

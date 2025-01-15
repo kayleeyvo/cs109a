@@ -1,0 +1,59 @@
+,Column,Category,Meaning,Type,Binary
+0,CustomerID,Customer ID,Customer ID,Categorical,
+1,Churn,Response Variable,Churn Result,Response,
+2,MonthlyRevenue,Bill & Payment Analysis,Mean monthly revenue,Quantitative-Continuous,
+3,TotalRecurringCharge,Bill & Payment Analysis,Mean total recurring charge,Quantitative-Continuous,
+4,PercChangeRevenues,Bill & Payment Analysis,% Change in revenues,Quantitative-Continuous,
+5,BlockedCalls,Customer Care Service,Mean number of blocked voice calls,Quantitative-Continuous,
+6,CustomerCareCalls,Customer Care Service,Mean number of customer care calls,Quantitative-Continuous,
+7,DroppedBlockedCalls,Customer Care Service,Mean number of dropped or blocked calls,Quantitative-Continuous,
+8,RespondsToMailOffers,Customer Care Service,Responds to mail offer,Categorical,binary
+9,OptOutMailings,Customer Care Service,Has chosen not to be solicited by mail ,Categorical,binary
+10,MadeCallToRetentionTeam,Customer Care Service,Customer has made call to retention team,Categorical,binary
+11,AdjustmentsToCreditRating,Customer Credit Score,Number of adjustments made to customer credit rating (up or down),Quantitative-discrete,
+12,CreditRating,Customer Credit Score,"Credit Rating (1-Highest,2-High,3-Good,4-Medium,5-Low,6-VeryLow,7-Lowest)",Quantitative-discrete,
+13,MonthsInService,Customer Demography,Months in Service ,Quantitative-discrete,
+14,UniqueSubs,Customer Demography,Number of Unique Subs,Quantitative-discrete,
+15,ActiveSubs,Customer Demography,Number of Active Subscribers,Quantitative-discrete,
+16,ServiceArea,Customer Demography,Service Area,Categorical,
+17,Handsets,Customer Demography,Number of handsets per customer,Quantitative-discrete,
+18,HandsetModels,Customer Demography,"Handset model(1-15,NA)",Categorical,
+19,CurrentEquipmentDays,Customer Demography,Number of days of the current equipment,Quantitative-discrete,
+20,AgeHH1,Customer Demography,Age of first HH member,Quantitative-discrete,
+21,AgeHH2,Customer Demography,Age of second HH member,Quantitative-discrete,
+22,ChildrenInHH,Customer Demography,Presence of children in HH,Categorical,binary
+23,HandsetRefurbished,Customer Demography,Is the handset refurbished? (Yes/No),Categorical,binary
+24,HandsetWebCapable,Customer Demography,Is the handset web capable? (Yes/No),Categorical,binary
+25,TruckOwner,Customer Demography,Subscriber owns a truck,Categorical,binary
+26,RVOwner,Customer Demography,Subscriber owns a recreational vehicle,Categorical,binary
+27,Homeownership,Customer Demography,Subscriber owns a Home,Categorical,binary
+28,BuysViaMailOrder,Customer Demography,Buys via mail order,Categorical,binary
+29,NonUSTravel,Customer Demography,Has traveled to non-US country,Categorical,binary
+30,OwnsComputer,Customer Demography,Subscriber owns a computer,Categorical,binary
+31,HasCreditCard,Customer Demography,Possesses a credit card,Categorical,binary
+32,NewCellphoneUser,Customer Demography,Known to be a new cell phone user,Categorical,binary
+33,NotNewCellphoneUser,Customer Demography,Known not to be a new cell phone user,Categorical,binary
+34,ReferralsMadeBySubscriber,Customer Demography,Number of referrals made by subscriber,Categorical,
+35,IncomeGroup,Customer Demography,Income Group low to high 0-9,Categorical,
+36,OwnsMotorcycle,Customer Demography,Owns a motorcycle,Categorical,binary
+37,HandsetPrice,Customer Demography,Handset price (0=>missing),Quantitative-discrete,
+38,PrizmCode,Customer Demography,Area that customer lives Town/Suburban/Rural/Other,Categorical,
+39,Occupation,Customer Demography,"Occupation (Occupation, Professional, Crafts, Other, Self, Retired, Homemaker, Clerical, Student)",Categorical,
+40,MaritalStatus,Customer Demography,Marital Status (yes/no/unknown),Categorical,
+41,MonthlyMinutes,Customer Usage Pattern,Mean Monthly Minute of uses,Quantitative-Continuous,
+42,OverageMinutes,Customer Usage Pattern,Mean overage minutes of use,Quantitative-Continuous,
+43,RoamingCalls,Customer Usage Pattern,Mean number of roaming calls,Quantitative-Continuous,
+44,PercChangeMinutes,Customer Usage Pattern,% Change in minutes of use,Quantitative-Continuous,
+45,DroppedCalls,Customer Usage Pattern,Mean number of dropped voice calls,Quantitative-Continuous,
+46,UnansweredCalls,Customer Usage Pattern,Mean number of unanswered voice,Quantitative-Continuous,
+47,ReceivedCalls,Customer Usage Pattern,Mean unrounded minute of use received voice calls,Quantitative-Continuous,
+48,OutboundCalls,Customer Usage Pattern,Mean number of outbound voice calls,Quantitative-Continuous,
+49,InboundCalls,Customer Usage Pattern,Mean number of inbound voice calls,Quantitative-Continuous,
+50,PeakCallsInOut,Customer Usage Pattern,Mean number of in and out peak voice calls,Quantitative-Continuous,
+51,OffPeakCallsInOut,Customer Usage Pattern,Mean number of in and out off-peak voice calls,Quantitative-Continuous,
+52,DirectorAssistedCalls,Value Added Services,Mean number of director assisted calls,Quantitative-Continuous,
+53,ThreewayCalls,Value Added Services,Mean number of three-way calls,Quantitative-Continuous,
+54,CallForwardingCalls,Value Added Services,Mean number of call forwarding calls,Quantitative-Continuous,
+55,CallWaitingCalls,Value Added Services,Mean number of call waiting calls,Quantitative-Continuous,
+56,RetentionCalls,Value Added Services,Number of calls previously made to retention team,Quantitative-discrete,
+57,RetentionOffersAccepted,Value Added Services,Number of previous retention offers accepted,Quantitative-discrete,
